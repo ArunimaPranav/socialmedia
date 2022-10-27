@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'friends',
     'group',
-    'chat',
+    # 'chat',
     'channels',
     'storages',
     'boto3',
@@ -76,7 +76,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'socialmedia.wsgi.application'
-ASGI_APPLICATION = "socialmedia.asgi.application"
+# ASGI_APPLICATION = "socialmedia.asgi.application"
 
 CHANNEL_LAYERS = {
     "default": {

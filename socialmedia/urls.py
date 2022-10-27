@@ -8,7 +8,7 @@ urlpatterns = [
     path('',include('user.urls')),
     path('api/',include('api.urls')),
     path('api-auth/',include('rest_framework.urls')),
-    path('chat/', include('chat.urls')),
+    # path('chat/', include('chat.urls')),
 ]
 
 
